@@ -36,11 +36,11 @@
 To view the deployed app [click here](https://roshni-project-management-app.vercel.app/).
 
 ## Installation 
-1. Clone the repository to your local machine
+1. Clone the repository to your local machine <br/>
    $ git clone https://github.com/roshnimishraa/React-Project-Management-App.git
-2. navigate to the project's directory and install all the relevant dev-dependencies
+2. navigate to the project's directory and install all the relevant dev-dependencies   <br/>
    $ npm intsall
-3. Start application
+3. Start application <br/>
    $ npm run dev
 4. Visit http://localhost:5173/ in your browser
 
