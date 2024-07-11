@@ -23,7 +23,7 @@
 2. useRef Hook: Directly access and manipulate DOM elements and store mutable values without causing re-renders.
 3. forwardRef Hook: Establish cross-component ref connections.This helps the child to read and modify the element from any location where it is used.
 4. createPortal (React-dom): Render dialogs and content in different DOM locations for flexibility and reusability.
-5. useImperativeHandle: It is used tocustomize the handle exposed as a ref.
+5. useImperativeHandle: It is used to customize the handle exposed as a ref.
 6. Props: Pass data and event handlers from parent to child components for effective communication and reusability.
 
 <!-- 1. useState Hook: Managing state to switch between components 
