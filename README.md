@@ -19,13 +19,19 @@
 5. User Input Validation: Validate user input and display error modals using useImperativeHandle.
 
 ## Concepts Used 
-1. useState Hook: Manage state transitions between components.
-2. useRef Hook: Connect and interact with HTML elements, retrieve input values.
-3. forwardRef Hook: Establish cross-component ref connections.
+1. useState Hook: Managing state to switch between components 
+2. useRef Hook: Directly access and manipulate DOM elements and store mutable values without causing re-renders.
+3. forwardRef Hook: Establish cross-component ref connections.This helps the child to read and modify the element from any location where it is used.
 4. createPortal (React-dom): Render dialogs and content in different DOM locations for flexibility and reusability.
-5. useImperativeHandle: Expose functions that can be called from outside the component.
+5. useImperativeHandle: It is used tocustomize the handle exposed as a ref.
 6. Props: Pass data and event handlers from parent to child components for effective communication and reusability.
 
+<!-- 1. useState Hook: Managing state to switch between components 
+2. useRef Hook: To connect with HTML elements and with interact with HTML elements or to retrive value of a Input 
+3. forwardRef Hook: To establish cross components ref connection
+4. createPortal in React-dom: To render dialog and the content that will be wrapped by this dialog in a different place of a DOM and to make modal more flexible and re-usable
+5. useImperativeHandle: To expose a function that can be called outside the component function.
+6. Props: used to pass data and event handlers from parent to child components, enabling component communication and reusability -->
 ## Deployed
 To view the deployed app [click here](https://roshni-project-management-app.vercel.app/).
 
